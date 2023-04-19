@@ -45,15 +45,15 @@ export function Tasks() {
 	// Add task
 	const addTask = () => {
         a7a(Filter.showAll)
-		// filter = '';
-		// filter = Filter.showAll;
-		// if(newTask) {
-		// let num = Date.now()
-		// setToDo([...toDo, { id: num, text: newTask, status: false}
-		// ])
-		// setNewTask('')
+		filter = '';
+		filter = Filter.showAll;
+		if(newTask) {
+		let num = Date.now()
+		setToDo([...toDo, { id: num, text: newTask, status: false}
+		])
+		setNewTask('')
 
-		// }
+		}
 	};
 
 	// Delete task
